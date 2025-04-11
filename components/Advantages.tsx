@@ -1,7 +1,6 @@
-import Image from 'next/image'
+
 import React from 'react'
 import TechStack from './TechStack'
-import { title } from 'process'
 import { IoCall } from 'react-icons/io5'
 
 const Advantages = () => {
@@ -39,7 +38,7 @@ const Advantages = () => {
                 
                 <div className='flex flex-col gap-2 -mt-16 '>
                   {stack.map((item) => (
-                      <TechStack img={item.img} title={item.title}/>
+                      <TechStack img={item.img} key={item.title} title={item.title}/>
                   ))}
                 </div>
               </div>

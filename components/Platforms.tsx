@@ -21,7 +21,7 @@ const Platforms = () => {
     ]
   return (
     <div className='flex flex-row justify-around mt-12'>
-       {platforms.map((item:any,index) => (
+       {platforms.map((item,index) => (
         <div key={index} className='flex flex-row items-center gap-5'>
             <Image src={item.image} alt={item.image} width={40} height={40}/>
             <p className='text-xl font-bold'>{item.title}</p>

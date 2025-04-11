@@ -1,22 +1,7 @@
 import React from 'react'
-import Image from 'next/image'
-import { FiArrowUpRight } from 'react-icons/fi'
 import ProjectCard from './ProjectCard'
 const RecentProjects = () => {
-    const stack = [{
-        img: '/nextjs.png',
-        title: 'Next.js',
-      },{
-        img: '/tailwind.png',
-        title:'tailwindcss'
-      },{
-        img:'/gsap.png',
-        title:'gsap'
-      },
-      {
-        img:'/three.png',
-        title:'three'
-      }]
+    
 
       const projects = [
         {
@@ -43,7 +28,7 @@ const RecentProjects = () => {
         <p className='text-4xl font-semibold'>A small selection of <span className='text-purple-300'>recent projects</span></p>
         <div className='grid grid-cols-2 gap-20 '>
             {projects.map((item) => (
-                <ProjectCard title={item.title} image={item.image} link={item.link} desc={item.desc}/>
+                <ProjectCard key={item.title} title={item.title} image={item.image} link={item.link} desc={item.desc}/>
             ))}
         </div>
     </div>

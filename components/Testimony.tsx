@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 const Testimony = () => {
   return (
@@ -9,7 +9,7 @@ const Testimony = () => {
                 <div className='w-[60%] p-6 bg-white/5 border border-white/20 rounded-xl gap-8 flex flex-col'>
                     <p className='w-[40rem]'>Collaborating and working with Prince was an amazing experience. His professionalism, speed of delivery and 
                         dedication to not only delivery a high end designed site but also one that loads at the speed of light.
-                        Prince's excitement for every facet of development truly stands out. If you're seeking to elevate your website and elevate your 
+                        Prince&apos;s excitement for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your 
                         brand, Prince is your main man
                     </p>
                     <div className='flex flex-row gap-4  items-center'>
@@ -24,7 +24,7 @@ const Testimony = () => {
                 <div className='w-[60%] p-6 bg-white/5 border border-white/20 rounded-xl gap-8 flex flex-col'>
                 <p className='w-[40rem]'>Collaborating and working with Prince was an amazing experience. His professionalism, speed of delivery and 
                     dedication to not only delivery a high end designed site but also one that loads at the speed of light.
-                    Prince's excitement for every facet of development truly stands out. If you're seeking to elevate your website and elevate your 
+                    Prince&apos;s excitement for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your 
                     brand, Prince is your main man
                 </p>
                 <div className='flex flex-row gap-4  items-center'>
@@ -39,7 +39,7 @@ const Testimony = () => {
             <div className='w-[60%] p-6 bg-white/5 border border-white/20 rounded-xl gap-8 flex flex-col'>
                 <p className='w-[40rem]'>Collaborating and working with Prince was an amazing experience. His professionalism, speed of delivery and 
                     dedication to not only delivery a high end designed site but also one that loads at the speed of light.
-                    Prince's excitement for every facet of development truly stands out. If you're seeking to elevate your website and elevate your 
+                    Prince&apos;s excitement for every facet of development truly stands out. If you&apos;re seeking to elevate your website and elevate your 
                     brand, Prince is your main man
                 </p>
                 <div className='flex flex-row gap-4  items-center'>

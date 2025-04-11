@@ -1,6 +1,7 @@
 import React from 'react'
 import { FiArrowUpRight } from 'react-icons/fi'
 import Image from 'next/image'
+import Link from 'next/link'
 
 interface props{
     title: string,
@@ -33,13 +34,13 @@ const ProjectCard = ({title, image,desc, link}:props) => {
             <div className='flex flex-row justify-between items-center'>
                 <div className='flex flex-row gap-5'>
                     {stack.map((item) => (
-                        <Image src={item.img} width={40} height={40} alt={item.title}/>
+                        <Image src={item.img} key={item.title} width={40} height={40} alt={item.title}/>
                     ))}
                 </div>
-                <div className='flex flex-row gap-2 text-purple-300'>
+                <Link href={link} className='flex flex-row gap-2 text-purple-300' >
                     <p>Check Live Site</p>
                     <FiArrowUpRight />
-                </div>
+                </Link>
             </div>
 
         </div>
