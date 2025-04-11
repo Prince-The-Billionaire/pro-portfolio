@@ -10,7 +10,7 @@ const Hero = () => {
         <img src='/spotlight (1).png' className='absolute top-0 right-0 '/>
         <p className='text text-lg'>DYNAMIC WEB MAGIC WITH NEXT JS AND EXPO</p>
         <p className='text-5xl font-semibold'>Transforming Concepts into <br/> <span className='text-accent '>Seamless User Experiences</span></p>
-        <p className='text-2xl text'>Hi! I'm Prince, a Next.js and Expo Developer</p>
+        <p className='text-2xl text'>Hi! I&apos;m Prince, a Next.js and Expo Developer</p>
         <button className='gradient flex flex-row gap-2 cursor-pointer border-white/10 border-2 backdrop-blur-md  shadow-[3]  bg-gradient-to-r from-blue-500/25 to-white/1 rounded-xl p-4'>
           <p>Open to Work</p>
           <FiArrowUpRight size={20} />
