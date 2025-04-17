@@ -20,11 +20,11 @@ const Platforms = () => {
         }
     ]
   return (
-    <div className='flex flex-row justify-around mt-12'>
+    <div className='flex flex-row max-md:grid max-md:flex-col max-md:flex max-md:justify-center justify-around mt-12'>
        {platforms.map((item,index) => (
         <div key={index} className='flex flex-row items-center gap-5'>
             <Image src={item.image} alt={item.image} width={40} height={40}/>
-            <p className='text-xl font-bold'>{item.title}</p>
+            <p className='text-xl font-bold max-md:text-lg'>{item.title}</p>
         </div>
        ))} 
     </div>
