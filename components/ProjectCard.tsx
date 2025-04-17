@@ -49,4 +49,5 @@ const ProjectCard = forwardRef<HTMLDivElement,props>( ({title, image,desc, link}
   )
 })
 
+ProjectCard.displayName = "ProjectCard";
 export default ProjectCard
